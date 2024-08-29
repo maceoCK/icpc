@@ -1,0 +1,1 @@
+numAnimals=int(input());print(int(''.join('0'if input().strip()=='Z'else'1'for _ in range(numAnimals)),2))
